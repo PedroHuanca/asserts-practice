@@ -1,0 +1,29 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "debug": "node --inspect-brk node_modules\\.bin\\nightwatch",
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroHuanca/asserts-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroHuanca/asserts-practice/issues"
+  },
+  "homepage": "https://github.com/PedroHuanca/asserts-practice#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.1.2"
+  },
+  "devDependencies": {
+    "chromedriver": "^101.0.0",
+    "nightwatch": "^2.1.5"
+  }
+
+}
